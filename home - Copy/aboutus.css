@@ -1,0 +1,173 @@
+body{
+  background-color: #d4e4ed;
+  width: 100%;
+  height: 100%;
+}
+.header-image {
+  width: 100%;
+  height: 350px;
+}
+
+.about-us-label {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 10px 20px;
+  border-radius: 5px;
+  /* color: white; */
+}
+.about-us-label h1{
+ color: white;
+}
+.container {
+  margin: 20px;
+  /* background-color: #D4E4ED; */
+  padding: 100%;
+  width: 100%;
+
+}
+
+.history-section {
+  display: flex;
+  align-items: center;
+ 
+}
+
+#historyImage {
+  width: 200%;
+  height: 70%;
+  margin-bottom: 10%;
+}
+
+#readMoreButton {
+  margin-top: 10px;
+  width: 20%;
+  margin-left: 32%;
+  margin-right: 10%;
+  background-color: #b6cade;
+  color: whitesmoke;
+}
+#readMoreButton:hover{
+  background-color: #decac4;
+}
+.history-section {
+  padding: 50px 0;
+}
+
+.special-features-section {
+  background-color:#b6d9ee;
+  height: 450px;
+
+}
+
+.special-features-section h2 {
+  margin-bottom: 19px;
+  color: white;
+}
+
+.head{
+text-align: center;
+margin-right: 50%;
+margin-left: 50%;
+}
+.container-history-section{
+  background-color:#dbd2cf ;
+  padding-top: 56px;
+  width: 100%;
+color: white;
+}
+.box {
+
+  width: 270px;
+  height: 300px;
+  border: 2px solid #000;
+  margin-top: 150%;
+  background-color: #9db6cf;
+  color:white;
+  border: none;
+  border-radius: 9px;
+  margin-top: 550px;
+  cursor: pointer;
+  font-size: medium;
+  display: inline-block;
+  margin-top: 1%;
+  margin-right: 2px;
+  margin-left: 5%;
+}
+
+.box:hover {
+  background-color:#dbd2cf;
+}
+.container {
+  padding-left: 350px;
+  /* margin-right:40% ; */
+}
+.team {
+  text-align: center;
+}
+
+.centered-heading {
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 32%;
+ margin-right: 38%;
+ color: white;
+}
+
+.team-container {
+  text-align: left; 
+    justify-content: space-around;
+  flex-wrap:wrap; 
+  
+}
+.member-container {
+  white-space: nowrap; /* Prevent boxes from wrapping to the next line */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  text-align: center; 
+  margin-top: 3%;
+}
+.member {
+  width: 150px;
+  margin: 0 40px; /* Adjust the distance between each member horizontally */
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s ease; /* Add transition for transform property */
+}
+
+.member.zoomed {
+  transform: scale(1.1); /* Zoom effect */
+}
+
+
+.infoButton {
+  width: 100%;
+  background-color: #9db6cf ;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.infoButton:hover{
+  background-color: #dbd2cf;
+}
+.infoDisplay {
+  display: none;
+  margin-top: 10px; 
+}
+.btnbtn-primary{
+  color: white;
+background-color: #82aeda ;
+width: 10%;
+height: 20%;
+}
+.btnbtn-primary:hover{
+  background-color: #dbd2cf;
+}

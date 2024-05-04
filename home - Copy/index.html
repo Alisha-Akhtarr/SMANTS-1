@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+ 
+  
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#"><img src="https://cdn-icons-png.freepik.com/256/15268/15268872.png" alt="SMANTS" width="30" height="30">
+              SMANTS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProducts" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                            <a class="dropdown-item" href="#category1">women clothing</a>
+                            <a class="dropdown-item" href="#category2"> Men Clothing</a>
+                            <a class="dropdown-item" href="#category3">kids Clothing</a>
+                            <a class="dropdown-item" href="#">Accessories</a>
+                            <a class="dropdown-item" href="#">Shoes</a>
+                            <a class="dropdown-item" href="#">Bags</a>
+                            <a class="dropdown-item" href="#">Perfumes</a>
+                            <!-- Add more categories as needed -->
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link btn rounded-pill" href="#">Signup</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link btn  rounded-pill" href="#">Login</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<section class="jumbotron text-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">Welcome to our SMANTS</h1>
+    <p class="text-bold text-uppercase">Discover endless possibilities at SMANTS! Shop now for all your needs. Fast, easy, and secure shopping experience. Join us today!</p>
+    <p>
+      
+      <a href="#" class="btn bg-info rounded-pill my-2" data-toggle="modal" data-target="#welcomeMessage">SMANTS</a>
+  </p>
+  </div>
+</section>
+<div id="welcomeMessage" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <!-- Modal body content -->
+                <h5>Welcome aboard! 🎉</h5>
+                <p>" Dive into a world of endless options. Let's get started on your journey with us."</p>
+                <p> "Fill out the form below to unlock exclusive deals and stay updated on the latest trends."</p>
+                <p> "Your adventure begins here!" 🚀✨</p>
+            </div>
+        </div>
+    </div>
+</div>
+  <section class="carousel-section">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://img.freepik.com/free-vector/fashion-sale-landing-page-template_52683-40480.jpg" class="d-block w-100" alt="clothing">
+        </div>
+        <div class="carousel-item">
+          <img src="https://marketplace.canva.com/EAFGKRRskMs/1/0/1600w/canva-brown-and-beige-minimalist-fashion-banner-lYcbGpUSVGo.jpg" class="d-block w-100" alt="Clothing">
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/free-vector/fashion-sale-landing-page-template_23-2148582384.jpg" class="d-block w-100" alt="clothing">
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/free-vector/flat-design-kids-store-sale-banner_23-2149619796.jpg" class="d-block w-100" alt="clothing">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <section id ="categogry1" class="category">
+    <div class="container">
+      <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+<div class="row">
+  <div class="col-md-12">
+    <h2>WOMEN CLOTHING</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6vS7hYDA07yuE6wR200fK4zkUcJen7wFppA&s" alt="Product 1" class="card-img-top rounded" data-toggle="tooltip" title="Product 1 details">
+        <div class="card-body">
+          <p class="card-text">Denim full dress.</p>
+          <a href="#" class="btn ">View details »</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3-tB0lpCRE0wEr3P6RLpMLPFoVpOBkHBMqg&usqp=CAU" alt="Product 2" class="card-img-top rounded" data-toggle="tooltip" title="Product 2 details">
+        <div class="card-body">
+          <p class="card-text">Bright simple full length frock .</p>
+          <a href="#" class="btn ">View details »</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuD522xwbNFdOr6LiXanb414JfZFietw9hFw&usqp=CAU" alt="Product 3" class="card-img-top rounded" data-toggle="tooltip" title="Product 3 details">
+        <div class="card-body">
+          <p class="card-text">Dark green with red embroidary dress .</p>
+          <a href="#" class="btn ">View details »</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://aestheticallychicbeauty.com/wp-content/uploads/2018/04/L_g0073904493.jpg" data-toggle="tooltip" title="Product 4 details">
+        <div class="card-body">
+          <p class="card-text">Dull pink crocket with the skirt.</p>
+          <a href="#" class="btn ">View details »</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <!-- Add more carousel items for other categories -->
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide-to="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide-to="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section id ="category2"class="category">
+    <div class="container">
+      <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+<div class="row">
+  <div class="col-md-12">
+    <h2>MEN CLOTHING </h2>
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYehOcWzaaYGusCgoLCt1y3xlOK9lXw9TaEA&s" alt="Product 1" class="card-img-top rounded" data-toggle="tooltip" title="Product 1 details">
+        <div class="card-body">
+          <p class="card-text">loose style light shirt with white track jean.</p>
+          <a href="#" class="btn">View details »</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4agChhMsK7VoJtbiXQYn16DHxgT8rRE0MVw&s" alt="Product 2" class="card-img-top rounded" data-toggle="tooltip" title="Product 2 details">
+        <div class="card-body">
+          <p class="card-text">street style fashion look.</p>
+          <a href="#" class="btn ">View details »</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-RstW_eSc7CV_pkLyWPlSlfmdqNHuXWM28Q&s" alt="Product 3" class="card-img-top rounded" data-toggle="tooltip" title="Product 3 details">
+        <div class="card-body">
+          <p class="card-text">Basic trio shirts for friends and family.</p>
+          <a href="#" class="btn">View details »</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpQD_J4qIllUKTv0q4rDGezO-W1rzzcOrpKzNsJ57hIJVu4ZpE89akdz-br-M1UgiIr0&usqp=CAU" alt="Product 4" class="card-img-top rounded" data-toggle="tooltip" title="Product 4 details">
+        <div class="card-body">
+          <p class="card-text">Baige color suit for interview look.</p>
+          <a href="#" class="btn">View details »</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <!-- Add more carousel items for other categories -->
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide-to="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide-to="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id ="category3"class="category">
+    <div class="container">
+      <div id="carouselExampleControls3" class="carousel slide col-md-12" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+<div class="row">
+  <div class="col-md-12">
+    <h2>KIDS CLOTHING</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZY-82q-OLWvzLFyCpKpEo3Q1mnQdzXbuLFh8dsODGIHvdHe0RnbxcnbRxTUCDCtIGET8&usqp=CAU" alt="Product 11" class="card-img-top rounded" data-toggle="tooltip" title="Product 1 details">
+        <div class="card-body">
+          <p class="card-text">Cute baby little dress in baby pink color</p>
+          <a href="#" class="btn">CART</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://static-01.daraz.pk/p/a287105826ea9cc8b4e95d227d194e23.jpg_750x750.jpg_.webp" alt="Product 12" class="card-img-top rounded" data-toggle="tooltip" title="Product 2 details">
+        <div class="card-body">
+          <p class="card-text">Cute baby pink track dress style.</p>
+          <a href="#" class="btn "> CART </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE5557eeh9Uh_e40B_rgr-t5a1fEOVTTTIaKMG4cfkv_DhmYHgX3Jtq7f0GZg3veP1UdE&usqp=CAU" alt="Product 13" class="card-img-top rounded" data-toggle="tooltip" title="Product 3 details">
+        <div class="card-body">
+          <p class="card-text">twin dresses for siblings.</p>
+          <a href="#" class="btn ">CART </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLD71zCDd387wfWcdBXIOFvEz-n1EL5JRf6bDusUn1viQZASu4CdVmj9KbshBDlMRsLrw&usqp=CAU" alt="Product 14" class="card-img-top rounded" data-toggle="tooltip" title="Product 4 details">
+        <div class="card-body">
+          <p class="card-text">skirt cut dress for baby.</p>
+          <a href="#" class="btn"> CART </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWe28iaYPCJkz6up9n269nIvEBwwy570EMGMWm1sZEdz8LopxYlC7Y_sVBMKq95b61Ce4&usqp=CAU" alt="Product 15" class="card-img-top rounded" data-toggle="tooltip" title="Product 4 details">
+        <div class="card-body">
+          <p class="card-text">grey dress for baby.</p>
+          <a href="#" class="btn "> CART</a>
+        </div>
+      </div><div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNU46yAoeVFoqBLgM9OtSgkufKTCr-kBVHICKPmuP_GJWR133r_bE0HCW3N2I-Fbr73FE&usqp=CAU" alt="Product 16" class="card-img-top rounded" data-toggle="tooltip" title="Product 4 details">
+        <div class="card-body">
+          <p class="card-text">blackpink theme skirt shirt.</p>
+          <a href="#" class="btn ">CART</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <!-- Add more carousel items for other categories -->
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide-to="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide-to ="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer  text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>About Us</h5>
+          <p>Welcome to SMANTS. We specialize in stylish apparel and accessories, curated for every occasion. Our goal is simple: to provide you with fashionable options that inspire confidence and elevate your style effortlessly.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-map-marker-alt"></i> Islamic University Fatima Block Basement,Islamabad</li>
+            <li><i class="fas fa-phone-alt"></i> +1 234 567 890</li>
+            <li><i class="fas fa-envelope"></i> @smants.com</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 mx-auto">
+        <h6 class="text-uppercase font-weight-bold mb-4">Subscribe to our Newsletter</h6>
+        <form class="subscribe-form">
+            <div class="input-group">
+                <input type="email" class="form-control rounded-0" placeholder="Enter your email address" required>
+                <div class="input-group-append">
+                    <button class="btn text-light rounded-0" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4 text-md-end mx-auto">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+      <div class="row">
+        <div class="col-md-4 mx-auto"><br><br>
+          <p>&copy; 2024 Your SMANTS. All rights reserved.</p>
+        </div> 
+        
+        
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  <script src="scripts.js"></script>
+<script>$(document).ready(function() {
+  // Mock data for products
+  var products = {
+    category1: ["Product 1", "Product 2", "Product 3", "Product 4", "Product 5"],
+    category2: ["Product 6", "Product 7", "Product 8", "Product 9", "Product 10"],
+    category3: ["Product 11", "Product 12", "Product 13", "Product 14", "Product 15","Product 16"]
+  };
+
+  // Function to render products in a category
+  function renderProducts(category, count) {
+    var productList = $('#'+category);
+    for (var i = 0; i < count; i++) {
+      var product = $('<div class="product">').text(products[category][i]);
+      productList.append(product);
+    }
+    $('[data-toggle="tooltip"]').tooltip();
+  }
+
+  // Render initial products
+  renderProducts('category1', 3);
+  renderProducts('category2', 3);
+  renderProducts('category3', 3);
+
+  // Load more products on button click
+  $('#loadMoreCategory1').click(function() {
+    renderProducts('category1', 2);
+  });
+
+  $('#loadMoreCategory2').click(function() {
+    renderProducts('category2', 2);
+  });
+
+  $('#loadMoreCategory3').click(function() {
+    renderProducts('category3', 2);
+  });
+});</script>
+
+</body>
+</html>

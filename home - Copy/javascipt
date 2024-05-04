@@ -1,0 +1,16 @@
+
+// Subscribe form submission
+$('.subscribe-form').submit(function(e) {
+    e.preventDefault();
+    // Implement your subscription functionality here
+    alert('Thank you for subscribing!');
+});
+$(document).ready(function() {
+  // Show the welcome message with fade in animation
+  $('#welcomeMessage').fadeIn('slow');
+
+  // Hide the welcome message after 3 seconds with fade out animation
+  setTimeout(function() {
+      $('#welcomeMessage').fadeOut('slow');
+  }, 3000); // Adjust the time as needed
+});
